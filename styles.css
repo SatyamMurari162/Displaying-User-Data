@@ -1,0 +1,64 @@
+/* body{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+#fetchUsersBtn{
+    padding: 10px 15px;
+    margin:30%;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(15, 70, 171);
+    border: none;
+}
+
+#fetchUsersBtn:hover{
+    background-color: rgb(149, 181, 22);
+    color: black;
+} */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#fetchUsersBtn{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(15, 70, 171);
+    border: none;
+}
+
+
+#fetchUsersBtn:hover{
+    background-color: rgb(149, 181, 22);
+    color: black;
+}
